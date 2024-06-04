@@ -6,7 +6,12 @@ This project automates the process of searching for cars on the Divar website. I
 
 1. **Python 3.x**: Ensure Python 3.x is installed on your system.
 2. **Google Chrome**: Install the latest version of Google Chrome.
-3. **ChromeDriver**: Download the ChromeDriver that matches your Chrome version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads) and ensure it's in your PATH.
+3. **ChromeDriver**: Download the ChromeDriver that matches your Chrome version and ensure it's in your PATH.
+
+## File Structure
+
+- app.py: The main script containing the Selenium automation logic.
+- config.ini: Configuration file containing user-defined settings for the car search.
 
 ## Installation
 
@@ -37,3 +42,9 @@ This project automates the process of searching for cars on the Divar website. I
 To run the script, simply execute:
 ```bash
 python app.py
+```
+
+## Notes
+
+- The XPath values used in the script match the actual structure of the Divar website. If the website structure changes,  may need to update these values accordingly.
+- The script is set up to simulate a Pixel 2 device. Adjust the device emulation as needed.
