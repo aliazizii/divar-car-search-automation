@@ -12,7 +12,7 @@ This project automates the process of searching for cars on the Divar website. I
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/divar-car-search-automation.git
+    git clone https://github.com/aliazizii/divar-car-search-automation.git
     cd divar-car-search-automation
     ```
 
