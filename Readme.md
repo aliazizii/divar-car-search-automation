@@ -2,6 +2,10 @@
 
 This project automates the process of searching for cars on the Divar website. It uses Selenium to navigate through the site, apply filters, and select a random car from the search results based on specific criteria defined in a configuration file.
 
+
+https://github.com/aliazizii/divar-car-search-automation/assets/77853490/ff64611a-b46c-44f8-8a00-ca05e28526b6
+
+
 ## Prerequisites
 
 1. **Python 3.x**: Ensure Python 3.x is installed on your system.
