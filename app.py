@@ -122,7 +122,6 @@ def applyFilters(driver):
 def selectRandomResult(driver):
     # Find all search results
     results = driver.find_elements(By.CLASS_NAME, 'post-list__items-container-a9e81')
-    print(len(results))
     # Select and click on a random result
     random_result = random.choice(results)
     random_result.click()
